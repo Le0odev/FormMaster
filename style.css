@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{ 
+    background-color: #0061ae;
+}
+
+.form{
+    text-align: center;
+    padding: 10px;
+}
+.form img{
+    align-items: center;
+    max-width: 250px;
+    width: 100%;
+}
+.form input[type=text],
+.form input[type=email]{
+    padding-left: 10px;
+    max-width: 500px;
+    margin:10px auto;
+    display: block;
+    width: 100%;
+    height: 35px;
+    border:1px solid ;
+    border-radius: 20px;
+    font-size: 16px;
+    border-color: #fefff2;
+    
+}
+.form textarea{
+    resize: vertical;
+    display: block;
+    width: 100%;
+    height: 120px;
+    margin:10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    border:1px solid #fefff2;
+    resize: none;
+    
+}
+.form input[type=submit]{
+    padding-left: 10px;
+    max-width: 500px;
+    margin:10px auto;
+    display: block;
+    width: 100%;
+    height: 35px;
+    border:0px solid;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #0013bd;
+    cursor: pointer;
+    color: white;
+    border-color:  #0061ae;
+    
+}
+
+
+a{
+    color: white
+}
+
+
+.ctt{
+    display: inline-block;
+    margin-left: 435px;
+    
+}
+
+span{
+    width: 100%;
+    background-color: #0061ae ;
+    color: #fefff2;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px){
+    
+    .ctt{
+        margin-left: 13px;
+       
+    }
+
+    .form{
+        text-align: center;
+        padding: 0px;
+        margin: 7px;
+    }
+
+}
